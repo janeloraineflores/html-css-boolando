@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+
 /* GENERAL */
 *{
     font-family: Arial, Helvetica, sans-serif;
@@ -49,6 +50,7 @@ header .nav-header .category *{
 }
 
 
+
 /* MAIN */
 
 main .my-row{
@@ -69,6 +71,20 @@ main .my-row .my-col img{
     width: 100%;
     display: block;
 }
+
+main .my-row .my-col .second-image{
+    display: none;
+}
+
+
+main .my-row .my-col:hover .second-image{
+    display: block;
+}
+
+main .my-row .my-col:hover .first-image{
+    display: none;
+}
+
 
 main .my-row .my-col .tag{
     font-size: 10px;
@@ -100,6 +116,10 @@ main .my-row .my-col .heart{
     top: 10px;
 }
 
+main .my-row .my-col .heart:hover{
+    color: red;
+}
+
 main .my-row .my-col .first-price{
     color: red;
     font-weight: bold;
@@ -124,7 +144,7 @@ footer .nav-footer{
     align-items: center;
 }
 
-footer .nav-footer .nav-footer-left > h4{
+h4{
     margin-bottom: 10px;
 }
 
@@ -133,18 +153,3 @@ footer .nav-footer .nav-footer-left .info-footer *{
     margin-right: 10px;
 }
 
-
-/* DEBUG */
-
-.debug header .nav-header {
-    border:  3px dashed black;
-}
-
-
-.debug .my-row .my-col{
-    border:  3px dashed black;
-}
-
-.debug footer .nav-footer{
-    border:  3px dashed red;
-}
