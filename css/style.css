@@ -26,8 +26,13 @@ a{
 
 /* HEADER */
 
+
 header{
     background-color: #FF6900;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
 }
 
 header .nav-header .logo {
@@ -54,7 +59,7 @@ header .nav-header .category *{
 /* MAIN */
 
 main .my-row{
-    margin: 50px 0;
+    margin: 100px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
