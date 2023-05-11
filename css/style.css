@@ -7,7 +7,50 @@
 }
 
 /* GENERAL */
-
 *{
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* HEADER */
+
+header{
+    background-color: #FF6900;
+}
+
+header .nav-header .logo {
+    width: 100px;
+}
+
+header .nav-header .logo img{
+    width: 100%;
+}
+
+header .nav-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+header .nav-header .category *{
+    color: white;
+    margin-right: 10px;
+}
+
+
+
+/* DEBUG */
+
+header .nav-header {
+    border:  3px dashed black;
 }
